@@ -14,8 +14,8 @@ function App() {
     <>
       <Router>
         <div className="flex">
-          <SideMenu className='z-10' />
-          <div id="container" className="absolute md:static pl-20 md:pl-0 z-0 w-full h-full">
+          <SideMenu />
+          <div id="container" className="absolute md:static pl-20 md:pl-0 z-0 w-full h-full bg-green-50">
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/list' element={<List />} />
