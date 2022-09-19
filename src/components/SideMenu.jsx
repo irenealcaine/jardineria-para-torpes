@@ -15,7 +15,7 @@ const SideMenu = () => {
   ]
 
   return (
-    <div className='flex z-10 top-0 left-0 fixed md:relative'>
+    <div className='flex z-10 top-0 left-0 fixed md:relative font-caveat'>
       <div className={`${open ? 'w-72' : 'w-20'} duration-200 h-screen p-5 pt-8 bg-green-900 sticky  top-0 left-0`}>
         <img src={Plant} className={`absolute cursor-pointer rounded-full -right-3 top-9 h-7 border-2 border-green-700 ${!open && 'rotate-180'}`} onClick={() => setOpen(!open)} />
         <Link
