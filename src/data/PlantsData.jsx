@@ -11,8 +11,8 @@ export const PlantsData = [
     light: high,
     description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
     categories: [
-      'flower',
-      'inside'
+      'Flor',
+      'Interior'
     ]
   }, {
     id: 2,
@@ -22,8 +22,8 @@ export const PlantsData = [
     light: high,
     description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
     categories: [
-      'aromatic',
-      'inside'
+      'Aromática',
+      'Interior'
     ]
   }, {
     id: 3,
@@ -33,7 +33,8 @@ export const PlantsData = [
     light: medium,
     description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
     categories: [
-      'food'
+      'Culinaria',
+      'Aromática'
     ]
   }, {
     id: 4,
@@ -43,7 +44,7 @@ export const PlantsData = [
     light: high,
     description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
     categories: [
-      'food'
+      'Culinaria'
     ]
   }, {
     id: 5,
@@ -53,8 +54,8 @@ export const PlantsData = [
     light: high,
     description: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.',
     categories: [
-      'flower',
-      'inside'
+      'Flor',
+      'Aromática'
     ]
   },
 ]
