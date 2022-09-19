@@ -10,11 +10,11 @@ const List = () => {
       <div className="relative md:static z-0">
         <MainHeader />
         Listado
-        <div className='flex md:flex-row flex-col items-center justify-center md:items-start md:px-4 px-0.5 py-2 flex-wrap gap-2'>
+        <div className='flex md:flex-row flex-col items-center justify-center md:items-start md:px-4 px-0.5 py-2 flex-wrap gap-5'>
           {
             PlantsData.map((data, id) => {
               return (
-                <div key={id} className="border border-green-400 shadow-xl rounded-lg md:w-80 w-full mb-4 pt-2 bg-white">
+                <div key={id} className="border border-green-400 shadow-xl rounded-lg md:w-80 w-full mb-4 bg-white">
                   <p className='text-3xl text-bold text-center py-4'>{data.name}</p>
                   <img src={data.img} alt="" className='w-full' />
                   <div className='flex justify-center mt-4'>
