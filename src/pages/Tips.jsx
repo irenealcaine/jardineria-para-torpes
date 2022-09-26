@@ -4,9 +4,8 @@ import React from 'react'
 const Tips = () => {
   return (
     <>
-      <div className="relative md:static z-0">
+      <div className="relative md:static z-0 bg-grass p-6">
         <MainHeader />
-        Consejos
       </div>
     </>
   )

@@ -3,8 +3,8 @@ import React from 'react'
 const MainHeader = () => {
   return (
     <>
-      <div className='bg-green-500 w-full px-4 py-4 md:py-6 text-4xl text-center md:text-8xl bg-hero-pattern font-caveat'>
-        <p className='opacity-100 text-white'>Jardinería para torpes</p>
+      <div className='bg-transparent w-full md:py-6 px-4 text-4xl text-center md:text-8xl font-caveat text-white'>
+        <p className=''>Jardinería para torpes</p>
       </div>
     </>
   )

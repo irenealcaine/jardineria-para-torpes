@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./src/assets/images/hero2.webp')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'grass': "url('./src/assets/images/grass.jpg')",
       },
       fontFamily: {
         'caveat': ['Caveat', 'sans-serif'],
